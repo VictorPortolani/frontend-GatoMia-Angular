@@ -1,6 +1,6 @@
 # 🐱 GatoMia - Frontend em Angular
 
-> Versão 0.0.0 - Início do Projeto
+>Versão 0.0.1 - Primeiros Componentes e Layout Base
 
 ## 📋 Sobre o Projeto
 
@@ -17,7 +17,7 @@
 
 1. **Clonar o repositório** (se aplicável)
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/VictorPortolani/frontend-GatoMia-Angular
 cd frontend-gatomia
 ```
 
@@ -33,8 +33,16 @@ npm start
 
 A aplicação estará disponível em `http://localhost:4200/`
 
-## 📝 Notas da Versão 0.0.0
+## 📝 Histórico de Versões
 
+### v0.0.1(Atual)
+- Criação do primeiro componente isolado: Navbar.
+- impeza do template padrão do Angular.
+- Configuração do layout principal no app.component.html com marcação semântica (<main> e .content).
+- Implementação inicial da tag <router-outlet> para gerenciar o roteamento das futuras páginas (login, cadastro, etc.).
+- Primeiras explorações da estrutura de diretórios e arquivos do Angular CLI.
+
+### v0.0.0
 - Setup inicial do projeto Angular 21.2
 - Estrutura base do projeto configurada
 - Dependências instaladas
@@ -42,4 +50,7 @@ A aplicação estará disponível em `http://localhost:4200/`
 
 ---
 
-**Status:** Inicial - v0.0.0
+**Status:** Em Desenvolvimento - v0.0.1
+
+
+ 
